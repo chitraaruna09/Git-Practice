@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+<!--     	<class name="com.obsqura.TestNGSample.WebElementCommands"/> -->
+<!--     	<class name= "com.obsqura.TestNGSample.SoftAssertSample"/> -->
+<!--     	<class name= "com.obsqura.TestNGSample.FindElementsSample"/> -->
+<!--     	<class name= "com.obsqura.TestNGSample.RadioButtonSelection"/> -->
+<!--     		<class name= "com.obsqura.TestNGSample.GroupRadioButtonsSample"/> -->
+<!--     	<class name= "com.obsqura.TestNGSample.CheckBoxSelection"/> -->
+<!--     	<class name= "com.obsqura.TestNGSample.MultipleCheckBoxSample"/> -->
+<!--     	<class name= "com.obsqura.TestNGSample.SelectFromDropDown"> -->
+<!--     	<methods> -->
+<!--       		<include name= "multipleSelectDropDown"/> -->
+      		
+<!--       </methods> -->
+<!--       </class> -->
+      <class name="com.obsqura.TestNGSample.Locators"> 
+      <methods>
+      		<include name= "locateAxesUsingAND"/>
+      		
+      </methods>
+      </class>
+<!--       <class name="com.obsqura.TestNGSample.BrowserCommands"/> -->
+<!--       <class name="com.obsqura.TestNGSample.Locators"> -->
+<!--       <methods> -->
+<!--       <include name="locateByName"/> -->
+<!--       <include name= "locateCSSSelectorID"/> -->
+<!-- 			<include name= "locateCSSSelectorTagAndID"/> -->
+			<!-- <include name= "locateCSSSelectorClass"/>
+			<include name= "locateCSSSelectorTagAndClass"/> -->
+<!-- 			<include name= "locateCSSSelectorTagAndAttribute"/> -->
+<!-- 			<include name= "locateXPath"/> -->
+<!-- 			<include name= "locateXPathContains"/> -->
+<!-- 			<include name= "locateXPathOrAnd"/> -->
+<!-- 			<include name= "locateXPathStartsWith"/> -->
+<!-- 				<include name= "locateXPathUsingLink"/> -->
+<!-- 				<include name= "locateXPathSelfAxes"/> -->
+<!-- 				<include name= "locateXPathDescendants"/> -->
+<!-- 			<include name= "locateXPathChildCurrentNode"/> -->
+<!-- 			<include name= "locateXPathText"/> -->
+<!-- 			<include name= "locateCSSSelectorInnerText"/> -->
+<!-- 				<include name= "locateLinkText"/> -->
+<!-- 				<include name= "locatePartialLinkText"/> -->
+<!--       <exclude name="locatingByID"/> -->
+<!--       <exclude name="locatingByClass"/> -->
+<!--       </methods> -->
+<!--       </class> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
